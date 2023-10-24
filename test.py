@@ -26,8 +26,8 @@ print(response.json())
 response = requests.put(BASE + "video/3", {"name": "How to build your ROBLOX game", "views": 100000, "likes": 550})
 print(response.json())
 
-response = requests.patch(BASE + "video/2", {"name": "[UPDATED] How to build your own PC", "views": 750, "likes": 150})
-print(response.json())
+response = requests.patch(BASE + "video/2", {"name": "[UPDATED for October 2023] How to build your own PC", "views": 750, "likes": 150})
+print(response.json()) 
 
 response = requests.get(BASE + "video/")
 if response.status_code != 200:
