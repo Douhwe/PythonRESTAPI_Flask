@@ -7,11 +7,13 @@ Install all of the required packages from packages.txt, Any compatible versions 
 Navigate to the project directory using command prompt/file explorer/any other method
 Make sure that the line db.create.all() in main.py is not commented out
 Run the script to initialize the database with 
+
 `python main.py`
 3. Running Tests:
 Open a new instance of command prompt in the project directory
 Comment out the line db.create.all() in main.py
 Run the test script to execute the tests (You can change the tests and make your own)
+
 `python test.py`
 
 
