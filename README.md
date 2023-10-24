@@ -9,6 +9,7 @@ Make sure that the line db.create.all() in main.py is not commented out
 Run the script to initialize the database with 
 
 `python main.py`
+
 3. Running Tests:
 Open a new instance of command prompt in the project directory
 Comment out the line db.create.all() in main.py
