@@ -2,6 +2,7 @@
 
 Setup and Running the Project
 1. Install Dependencies:
+
 Install all of the required packages from packages.txt.
 
 Any compatible versions should be fine, the versions listed were the ones used during the development of this project. 
